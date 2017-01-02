@@ -1,4 +1,4 @@
-
+if myHero.charName ~= "Khazix" then return end
 
 require("OpenPredict")
 
@@ -218,7 +218,7 @@ OnTick(function()
           	 	end
         	end
     
-      
+          end
       	if KMenu.Combo.W:Value() and Ready(_W) and ValidTarget(target, WStats.range) and IsAA == false then
        		 local WPred = GetPrediction(target, WStats)
         	-- W has minnion collision :mCollision()
