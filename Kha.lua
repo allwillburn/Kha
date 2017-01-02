@@ -228,11 +228,11 @@ OnTick(function()
         end
       
         
-        end
+        
         -- random numbers that I like to use | It will activate if your passive is off for the passive reset or if there are more than 2 enemies around you
         if KMenu.Combo.R:Value() and Ready(_R) and ValidTarget(target, 400) and ( ( khaPassive == false and GetCurrentHP(target) > GetQDMG(target) + DPS ) or EnemiesAround(GetOrigin(myHero), 500) > 2 ) and IsAA == false then
         	CastSpell(3)
         end
-  	end
+  	
 end)
 	
