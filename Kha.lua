@@ -233,6 +233,6 @@ OnTick(function()
         if KMenu.Combo.R:Value() and Ready(_R) and ValidTarget(target, 400) and ( ( khaPassive == false and GetCurrentHP(target) > GetQDMG(target) + DPS ) or EnemiesAround(GetOrigin(myHero), 500) > 2 ) and IsAA == false then
         	CastSpell(3)
         end
-  	
+   end
 end)
 	
