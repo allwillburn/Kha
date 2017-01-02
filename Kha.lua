@@ -1,4 +1,4 @@
-if myHero.charName ~= "Khazix" then return end
+
 
 require("OpenPredict")
 
